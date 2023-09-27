@@ -19,6 +19,10 @@ document.getElementById("button").addEventListener("click",function(){
     } else {
         document.getElementById("interest-error").innerText="";
     }
+
+    if(name!="" && email!="" && interest!=""){
+        alert("Data sudah kami terima, mohon tunggu konfirmasi berikutnya. Terima kasih.");
+    }
 })
 
 let slideIndex=0;

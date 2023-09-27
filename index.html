@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>E-Grocery</title>
     <link rel="stylesheet" href="css/style.css">
     <!--tag <script> ada di bawah </footer> supaya autoslide bisa bekerja jadi diletakkan di bawah--> 
 </head>
 <body>
     
     <header class="navigation">
+        <!--Navigation-->
         <div class="page-title">E-Grocery</div>
         <div class="nav">
             <a href="#home" class="nav-item">Home</a>
@@ -19,6 +20,7 @@
     </header>
 
     <main>
+        <!--Title-->
         <div id="home" class="content-title">
             <div>
                 <h1>Top Rated E-Groceries Shop in Indonesia</h1>
@@ -29,6 +31,7 @@
             </div>
         </div>
         <div id="content" class="content">
+            <!--Image,Profile,Benefit-->
             <div id="content-left" class="content-left">
                 <div class="content-image">
                     <div class="container-image">
@@ -43,20 +46,21 @@
                     </div>
                     <hr class="line">
                 </div>
-                <div id="our-products" class="our-products">
+                <div id="benefits" class="benefits">
                     <div>
                         <div class="circle"><br>1</div>
                         <div class="circle"><br>2</div>
                         <div class="circle"><br>3</div>
                     </div>
                     <div>
-                        <div class="our-products-caption">Mendapatkan sayur pilihan terbaik</div>
-                        <div class="our-products-caption">Ditanam dengan sepenuh hati</div>
-                        <div class="our-products-caption">Dikelola dengan cara yang sesuai standar</div>
+                        <div class="benefits-caption">Mendapatkan sayur pilihan terbaik</div>
+                        <div class="benefits-caption">Ditanam dengan sepenuh hati</div>
+                        <div class="benefits-caption">Dikelola dengan cara yang sesuai standar</div>
                     </div>
                 </div>
             </div>
 
+            <!--Form-->
             <div id="call-us" class="content-right">
                 <form name="content-form" class="content-form">
                     <label class="label-bold">Contact Us</label>
@@ -70,10 +74,13 @@
                     <p class="error" id="email-error"></p>
                     <label for="interest" class="label-bold">What are you interested in?</label>
                     <select type="select" name="interest">
-                        <option value="" disabled selected hidden>Jenis Olahraga</option>
-                        <option value="Football">Football</option>
-                        <option value="Badminton">Badminton</option>
-                        <option value="Basketball">Basketball</option>
+                        <option value="" disabled selected hidden>Choose your package</option>
+                        <option value="fresh vegetabble">Fresh Vegetable</option>
+                        <option value="fresh frut">Fresh Fruit</option>
+                        <option value="instant delivery">Instant Delivery</option>
+                        <option value="kitchen ingridient">Kitchen Ingridient</option>
+                        <option value="kitchen sets">Kitchen Set</option>
+                        <option value="bunding set">Bunding Set</option>
                     </select>
                     <p class="error" id="interest-error"></p>
                     <div id="button" type="submit" class="button">SEND</div>
@@ -81,6 +88,7 @@
             </div>
         </div>
         
+        <!--Our Package-->
         <div id="our-package" class="our-package">
             <div class="our-package-title">
                 <h2>Our Package</h2>
@@ -135,15 +143,26 @@
                 </div>
             </div>
         </div>
-       
     </main>
 
     <footer>
+        <!--Closing-->
         <div class="closing-argument">
             <h2>Akhir Kata</h2>
             <div>"Tubuh yang sehat berawal dari asupan makanan yang sehat"</div>
             <a href="#call-us" class="action">CALL TO ACTION</a>
         </div>
+        <hr>
+        <div class="foot">
+            <div>E-Grocery</div>
+            <div class="terms">
+                <div>Terms of Service</div>
+                <div>Privacy Policy</div>
+            </div>
+            
+            <div>&copy 2023 Kevin Winardi</div>
+        </div>
+        
     </footer>
     <script src="js/script.js"></script>
 </body>

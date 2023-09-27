@@ -2,7 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.content-title, .content, .our-products, .our-package-content{
+.content-title, .content, .benefits, .our-package-content{
     margin: 0px 20px;
 }
 
@@ -169,7 +169,7 @@ select{
     margin-bottom: 10px;
 }
 
-.our-products{
+.benefits{
     display: flex;
     flex-direction: row;
 }
@@ -185,7 +185,7 @@ select{
     margin-bottom: 20px;
 }
 
-.our-products-caption{
+.benefits-caption{
     margin-top: 20px;
     color: gray;
     margin-bottom: 55px;
@@ -254,6 +254,29 @@ select{
     font-size: 1.5em;
     font-style: italic;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+
+.foot div{
+    margin: 5px 0px;
+}
+
+.terms{
+    display: flex;
+    flex-direction: row;
+}
+
+.terms div{
+    margin: 0px 10px;
+    cursor: pointer;
 }
 
 .action{
