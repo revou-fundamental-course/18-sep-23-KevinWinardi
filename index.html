@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--tag <script> ada di bawah </footer> supaya autoslide bisa bekerja jadi diletakkan di bawah--> 
+</head>
+<body>
+    
+    <header class="navigation">
+        <div class="page-title">E-Grocery</div>
+        <div class="nav">
+            <a href="#home" class="nav-item">Home</a>
+            <a href="#our-package" class="nav-item">Our Package</a>
+            <a href="#call-us" class="nav-item">Call Us</a>
+        </div>
+    </header>
+
+    <main>
+        <div id="home" class="content-title">
+            <div>
+                <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+            </div>
+
+            <div>
+                <span>Every Day with best ingridient</span>
+            </div>
+        </div>
+        <div id="content" class="content">
+            <div id="content-left" class="content-left">
+                <div class="content-image">
+                    <div class="container-image">
+                        <div class="slider"><img src="asset/Fruits and Vegetables.jpg" alt="slider"></div>
+                        <div class="slider"><img src="asset/Fruits.jpeg" alt="slider"></div>
+                        <div class="slider"><img src="asset/Vegetables.jpg" alt="slider"></div>  
+                    </div>
+                    <span class="image-caption">Setiap hari beli sayur dan buah yang segar disini</span>
+                    <div class="profile">
+                        <img src="asset/Profile Image.jpg" class="profile-image" alt="profile image">
+                        <h5>Kevin Winardi<br><span class="profile-caption">Mahasiswa, 18</span></h5>
+                    </div>
+                    <hr class="line">
+                </div>
+                <div id="our-products" class="our-products">
+                    <div>
+                        <div class="circle"><br>1</div>
+                        <div class="circle"><br>2</div>
+                        <div class="circle"><br>3</div>
+                    </div>
+                    <div>
+                        <div class="our-products-caption">Mendapatkan sayur pilihan terbaik</div>
+                        <div class="our-products-caption">Ditanam dengan sepenuh hati</div>
+                        <div class="our-products-caption">Dikelola dengan cara yang sesuai standar</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="call-us" class="content-right">
+                <form name="content-form" class="content-form">
+                    <label class="label-bold">Contact Us</label>
+                    <label>Sales akan menghubungi anda 1x24 jam setelah data kami terima</label>
+                    <br><br>
+                    <label for="your-name" class="label-bold" name="your-name">Your Name:</label>
+                    <input value="" type="text" name="your-name" placeholder="First and last name">
+                    <p class="error" id="name-error"></p>
+                    <label for="email" class="label-bold" name="email">Email Address:</label>
+                    <input value="" type="email" name="email" placeholder="example@gmail.com">
+                    <p class="error" id="email-error"></p>
+                    <label for="interest" class="label-bold">What are you interested in?</label>
+                    <select type="select" name="interest">
+                        <option value="" disabled selected hidden>Jenis Olahraga</option>
+                        <option value="Football">Football</option>
+                        <option value="Badminton">Badminton</option>
+                        <option value="Basketball">Basketball</option>
+                    </select>
+                    <p class="error" id="interest-error"></p>
+                    <div id="button" type="submit" class="button">SEND</div>
+                </form>
+            </div>
+        </div>
+        
+        <div id="our-package" class="our-package">
+            <div class="our-package-title">
+                <h2>Our Package</h2>
+            </div>
+            <div class="our-package-content">
+                <div class="our-package-row1">
+                    <div class="type-package">
+                        <img src="asset/Logo Lampu.png" alt="Logo">
+                        <div class="package-detail">
+                            <h4>Fresh Vegetable</h4>
+                            <div>Sayur segar langsung dari sumber pertanian terbaik</div>
+                        </div>
+                    </div>
+                    <div class="type-package">
+                        <img src="asset/Logo Lampu.png" alt="Logo">
+                        <div class="package-detail">
+                            <h4>Fresh Fruit</h4>
+                            <div>Buah dengan kualitas terbaik dari lokal atau impor dengan harga yang menarik</div>
+                        </div>
+                    </div>
+                    <div class="type-package">
+                        <img src="asset/Logo Lampu.png" alt="Logo">
+                        <div class="package-detail">
+                            <h4>Instant Delivery</h4>
+                            <div>Di kirim instan oleh kurir yang telah di training dengan SOP untuk menjaga kondisi belanja kamu</div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="line">
+                <div class="our-package-row2">
+                    <div class="type-package">
+                        <img src="asset/Logo Bintang.png" alt="Logo">
+                        <div class="package-detail">
+                            <h4>Kitchen Ingridient</h4>
+                            <div>Bumbu dapur lengkap untuk keperluan memasak kamu</div>
+                        </div>
+                    </div>
+                    <div class="type-package">
+                        <img src="asset/Logo Bintang.png" alt="Logo">
+                        <div class="package-detail">
+                            <h4>Kitchen Set</h4>
+                            <div>Segala jenis alat masak untuk membantu kamu memasak</div>
+                        </div>
+                    </div>
+                    <div class="type-package">
+                        <img src="asset/Logo Bintang.png" alt="Logo">
+                        <div class="package-detail">
+                            <h4>Bunding Set</h4>
+                            <div>Bingung masak apa? Sudah tersedia paket untuk kamu masak di dapur</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </main>
+
+    <footer>
+        <div class="closing-argument">
+            <h2>Akhir Kata</h2>
+            <div>"Tubuh yang sehat berawal dari asupan makanan yang sehat"</div>
+            <a href="#call-us" class="action">CALL TO ACTION</a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
