@@ -15,7 +15,7 @@ document.getElementById("button").addEventListener("click",function(){
     }
 
     if(interest==""){
-        document.getElementById("interest-error").innerText="Hobi tidak boleh kosong";
+        document.getElementById("interest-error").innerText="Pilihan tidak boleh kosong";
     } else {
         document.getElementById("interest-error").innerText="";
     }
